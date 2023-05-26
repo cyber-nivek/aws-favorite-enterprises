@@ -47,4 +47,4 @@ def create_user():
 
 @app.errorhandler(404)
 def resource_not_found(e):
-    return make_response(jsonify(error='Not found!'), 404)
+    return make_response(jsonify(error='Not found pepee!'), 404)
